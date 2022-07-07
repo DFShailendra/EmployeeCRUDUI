@@ -1,0 +1,20 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Address</th>
+            <th>PhoneNumber</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let dataItem of EmployeeList">
+            <td>{{dataItem.ID}}</td>
+            <td>{{dataItem.FirstName}}</td>
+            <td>{{dataItem.LastName}}</td>
+            <td>{{dataItem.Address}}</td>
+            <td>{{dataItem.PhoneNumber}}</td>
+        </tr>
+    </tbody>
+</table>
